@@ -1,3 +1,11 @@
+def print_game(game_list):
+    print(' {} | {} | {}'.format(game_list[0],game_list[1],game_list[2]))
+    print('-----------')
+    print(' {} | {} | {}'.format(game_list[3], game_list[4], game_list[5]))
+    print('-----------')
+    print(' {} | {} | {}'.format(game_list[6], game_list[7], game_list[8]))
+
+
 def check_winner (game_list):
     result = False
 
@@ -25,13 +33,6 @@ def check_winner (game_list):
 
     print(result)
     return result
-
-def print_game(game_list):
-    print(' {} | {} | {}'.format(game_list[0],game_list[1],game_list[2]))
-    print('-----------')
-    print(' {} | {} | {}'.format(game_list[3], game_list[4], game_list[5]))
-    print('-----------')
-    print(' {} | {} | {}'.format(game_list[6], game_list[7], game_list[8]))
 
 
 game = ['0','1','2','3','4','5','6','7','8']
