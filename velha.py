@@ -6,7 +6,7 @@ def print_game(game_list):
     print(' {} | {} | {}'.format(game_list[6], game_list[7], game_list[8]))
 
 
-def check_winner (game_list):
+def check_winner(game_list):
     result = False
 
     #Verificando horizontal
@@ -47,7 +47,12 @@ def init_game():
 
     while not check_winner(game):
         print_game(game)
-        position = int(input('Qual posição? '))
+        position = input('Qual posição de 1 a 9? ')
+        if position.isnumeric():
+            position = int(position)
+        else:
+            print('Escolha uma posição de 1 a 9')
+            continue
         play(game, position, player)
         if player == 'X':
             player = 'O'
@@ -64,5 +69,3 @@ def init_game():
     else:
         print('O jogador com X ganhou')
 
-
-init_game()
