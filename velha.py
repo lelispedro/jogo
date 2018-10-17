@@ -31,11 +31,38 @@ def check_winner (game_list):
     if game_list[2] == game_list[4] and game_list[2] == game_list[6] and game_list[2] != ' ':
         result = True
 
-    print(result)
     return result
 
+def play(game, position, player):
+    if game[position] != ' ':
+        print('Esta posição está ocupada escolha outra')
+        return
+    game[position] = player
+    return
 
-game = ['0','1','2','3','4','5','6','7','8']
 
-check_winner(game)
-print_game(game)
+def init_game():
+    game = [' ',' ',' ',' ',' ',' ',' ',' ',' ']
+    player = 'X'
+
+    while not check_winner(game):
+        print_game(game)
+        position = int(input('Qual posição? '))
+        play(game, position, player)
+        if player == 'X':
+            player = 'O'
+        else:
+            player = 'X'
+        if ' ' not in game:
+            break
+
+    if ' ' not in game:
+        print('Deu velha')
+        return
+    if player == 'X':
+        print('O jogador com O ganhou')
+    else:
+        print('O jogador com X ganhou')
+
+
+init_game()

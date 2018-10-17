@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abb8ddd3-f7d6-407b-84b1-3b6524107afb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velha.py" beforeDir="false" afterPath="$PROJECT_DIR$/velha.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,12 +30,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="723" />
+          <entry key="py" value="1890" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="723" />
+          <entry key="Python" value="1890" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -47,11 +46,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/velha.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            <state relative-caret-position="475">
+              <caret line="64" column="39" lean-forward="true" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
               <folding>
-                <marker date="1539802431414" expanded="true" signature="29:34" ph="..." />
-                <marker date="1539802431414" expanded="true" signature="1126:1405" ph="..." />
+                <marker date="1539806293373" expanded="true" signature="1420:2109" ph="..." />
+                <marker date="1539806293373" expanded="true" signature="1562:1564" ph="..." />
               </folding>
             </state>
           </provider>
@@ -160,7 +159,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="-1" width="1286" height="1001" extended-state="7" />
+    <frame x="-3" y="-1" width="1286" height="1001" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -195,11 +194,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/velha.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        <state relative-caret-position="475">
+          <caret line="64" column="39" lean-forward="true" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
           <folding>
-            <marker date="1539802431414" expanded="true" signature="29:34" ph="..." />
-            <marker date="1539802431414" expanded="true" signature="1126:1405" ph="..." />
+            <marker date="1539806293373" expanded="true" signature="1420:2109" ph="..." />
+            <marker date="1539806293373" expanded="true" signature="1562:1564" ph="..." />
           </folding>
         </state>
       </provider>
