@@ -5,7 +5,6 @@ def print_game(game_list):
     print('-----------')
     print(' {} | {} | {}'.format(game_list[6], game_list[7], game_list[8]))
 
-
 def check_winner(game_list):
     result = False
 
@@ -40,7 +39,6 @@ def play(game, position, player):
     game[position] = player
     return
 
-
 def init_game():
     game = [' ',' ',' ',' ',' ',' ',' ',' ',' ']
     player = 'X'
@@ -69,3 +67,5 @@ def init_game():
     else:
         print('O jogador com X ganhou')
 
+
+init_game()
