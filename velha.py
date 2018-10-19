@@ -1,14 +1,15 @@
 def print_game(game_list):
-    print(' {} | {} | {}'.format(game_list[0],game_list[1],game_list[2]))
+    print(' {} | {} | {}'.format(game_list[0], game_list[1], game_list[2]))
     print('-----------')
     print(' {} | {} | {}'.format(game_list[3], game_list[4], game_list[5]))
     print('-----------')
     print(' {} | {} | {}'.format(game_list[6], game_list[7], game_list[8]))
 
+
 def check_winner(game_list):
     result = False
 
-    #Verificando horizontal
+    # Verificando horizontal
     if game_list[0] == game_list[1] and game_list[0] == game_list[2] and game_list[0] != ' ':
         result = True
     if game_list[3] == game_list[4] and game_list[3] == game_list[5] and game_list[3] != ' ':
@@ -32,6 +33,7 @@ def check_winner(game_list):
 
     return result
 
+
 def play(game, position, player):
     if game[position] != ' ':
         print('Esta posição está ocupada escolha outra')
@@ -39,8 +41,9 @@ def play(game, position, player):
     game[position] = player
     return
 
+
 def init_game():
-    game = [' ',' ',' ',' ',' ',' ',' ',' ',' ']
+    game = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
     player = 'X'
     print('Iniciando o jogo.........')
     print('')
