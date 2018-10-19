@@ -48,7 +48,7 @@ def init_game():
     while not check_winner(game):
         print_game(game)
         position = input('Qual posição de 1 a 9? ')
-        if position.isnumeric():
+        if position.isnumeric() and int(position) < 9:
             position = int(position) - 1
         else:
             print('Escolha uma posição de 1 a 9')
