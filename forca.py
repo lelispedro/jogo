@@ -117,4 +117,8 @@ def init_game():
         win = '_' not in word_game
         print(word_game)
 
-init_game()
+    if win:
+        print('Parabéns você ganhou, a palavra era {}!'.format(secret_word))
+    else:
+        print('Você perdeu! A palavra era {}.'.format(secret_word))
+
