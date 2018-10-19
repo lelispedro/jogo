@@ -32,14 +32,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="8" />
-          <entry key="py" value="3140" />
+          <entry key="py" value="3717" />
           <entry key="txt" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="25" />
-          <entry key="Python" value="3148" />
+          <entry key="Python" value="3725" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -74,14 +74,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forca.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="-35">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#33#1450#0" />
                 <element signature="e#1267#1535#0" />
                 <element signature="e#1575#1584#0" />
-                <marker date="1539957141973" expanded="true" signature="52:57" ph="..." />
-                <marker date="1539957141973" expanded="true" signature="1566:1611" ph="..." />
+                <element signature="e#1638#1721#0" />
+                <element signature="e#1781#1891#0" />
+                <marker date="1539968578252" expanded="true" signature="40:45" ph="..." />
+                <marker date="1539968578252" expanded="true" signature="1564:1605" ph="..." />
+                <marker date="1539968578252" expanded="true" signature="1627:1632" ph="..." />
+                <marker date="1539968578252" expanded="true" signature="1771:1889" ph="..." />
+                <marker date="1539968578252" expanded="true" signature="1905:1910" ph="..." />
               </folding>
             </state>
           </provider>
@@ -231,15 +236,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="-1" width="1286" height="1001" extended-state="6" />
+    <frame x="-3" y="-1" width="1286" height="1001" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1646778" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1646778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3127148" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3127148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -284,14 +289,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/forca.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="-35">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="e#33#1450#0" />
             <element signature="e#1267#1535#0" />
             <element signature="e#1575#1584#0" />
-            <marker date="1539957141973" expanded="true" signature="52:57" ph="..." />
-            <marker date="1539957141973" expanded="true" signature="1566:1611" ph="..." />
+            <element signature="e#1638#1721#0" />
+            <element signature="e#1781#1891#0" />
+            <marker date="1539968578252" expanded="true" signature="40:45" ph="..." />
+            <marker date="1539968578252" expanded="true" signature="1564:1605" ph="..." />
+            <marker date="1539968578252" expanded="true" signature="1627:1632" ph="..." />
+            <marker date="1539968578252" expanded="true" signature="1771:1889" ph="..." />
+            <marker date="1539968578252" expanded="true" signature="1905:1910" ph="..." />
           </folding>
         </state>
       </provider>

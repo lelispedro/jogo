@@ -1,6 +1,7 @@
 import random
 
-def print_game(errors, word_lenght):
+
+def print_game(errors):
 
     print(' __________ ')
     print('|          |')
@@ -61,6 +62,7 @@ def print_game(errors, word_lenght):
         print('|         / \ ')
         print('|')
 
+
 def choose_word():
     fruits = ['Abacaxi',
               'Banana',
@@ -72,15 +74,47 @@ def choose_word():
               'Morango',
               'Pera']
 
-    word = random.choice(fruits)
+    word = random.choice(fruits).lower()
     return word
+
 
 def set_secret_word(secret_word):
     return ['_' for x in secret_word]
 
 
+def question_letter():
+    letter = input('Qual letra?')
+    letter = letter.strip().lower()
+    return letter
 
 
+def place_right_guess(guess, word_game, secret_word):
+    index = 0
+    for x in secret_word:
+        if guess == x:
+            word_game[index] = x
+        index += 1
 
 
-print_game()
+def init_game():
+    secret_word = choose_word()
+    word_game = set_secret_word(secret_word)
+    print(word_game)
+
+    win = False
+    lose = False
+    errors = 0
+
+    while (not win and not lose):
+        guess = question_letter()
+        if guess in secret_word:
+            place_right_guess(guess,word_game,secret_word)
+        else:
+            errors += 1
+            print_game(errors)
+
+        lose = errors == 7
+        win = '_' not in word_game
+        print(word_game)
+
+init_game()
