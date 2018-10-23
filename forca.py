@@ -139,5 +139,3 @@ def init_game():
         print('Parabéns você ganhou, a palavra era {}!'.format(secret_word))
     else:
         print('Você perdeu! A palavra era {}.'.format(secret_word))
-
-init_game()
