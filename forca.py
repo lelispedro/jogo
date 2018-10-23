@@ -74,8 +74,25 @@ def choose_word():
               'Morango',
               'Pera']
 
-    word = random.choice(fruits).lower()
-    return word
+    cars = ['Corsa',
+            'Celta',
+            'Astra',
+            'Fox',
+            'Tucson',
+            'Duster',
+            'Fusca',
+            'Sandeiro']
+
+    possible_category = [fruits, cars]
+    category = random.choice(possible_category)
+
+    if category == fruits:
+        cat = 'Fruta'
+    elif category == cars:
+        cat = 'Carros'
+
+    word = random.choice(category).lower()
+    return word, cat
 
 
 def set_secret_word(secret_word):
@@ -97,8 +114,9 @@ def place_right_guess(guess, word_game, secret_word):
 
 
 def init_game():
-    secret_word = choose_word()
+    secret_word, secret_category = choose_word()
     word_game = set_secret_word(secret_word)
+    print('Categoria: {}'.format(secret_category))
     print(word_game)
 
     win = False
@@ -122,3 +140,4 @@ def init_game():
     else:
         print('Você perdeu! A palavra era {}.'.format(secret_word))
 
+init_game()
